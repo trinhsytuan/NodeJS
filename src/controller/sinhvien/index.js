@@ -9,6 +9,11 @@ const addNewStudent = async (req, res) => {
     return res.status(200).json(sinhVienResponse);
 }
 
+const getAllStudent = async(req, res) => {
+    const allStudent = await sinhvienDB.find({});
+    return res.status(200).json(allStudent);
+}
 module.exports = {
-    addNewStudent
+    addNewStudent,
+    getAllStudent
 }

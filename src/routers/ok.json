@@ -1,0 +1,19 @@
+{
+    "_id": { "$oid": "5816bed4a2b7a9f009f2f2bb" },
+    "title": "MongoDB Overview",
+    "by": "John",
+    "likes": 100,
+    "comments": [
+      {
+        "user": "user1",
+        "message": "My first comment",
+        "like": 0
+      },
+      {
+        "user": "user2",
+        "message": "My second comment",
+        "like": 5
+      }
+    ]
+  }
+  
